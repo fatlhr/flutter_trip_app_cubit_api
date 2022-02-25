@@ -35,6 +35,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 margin: EdgeInsets.fromLTRB(20, 150, 20, 0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -58,10 +59,11 @@ class _WelcomePageState extends State<WelcomePage> {
                       ],
                     ),
                     Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: List.generate(
                         3,
                         (indexSlider) => Container(
+                          margin: EdgeInsets.only(bottom: 2),
                           width: 8,
                           height: index == indexSlider ? 25 : 8,
                           decoration: BoxDecoration(
