@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_trip_app_cubit_api/pages/nav_pages/home_page.dart';
+import 'package:flutter_trip_app_cubit_api/pages/home_page.dart';
 
 import 'bar_item_page.dart';
 import 'my_page.dart';
